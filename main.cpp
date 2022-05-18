@@ -9,7 +9,7 @@
 
 int main() {
 
-  //IT21252990-----Objects Creation Start---------
+  //IT21252990-----Objects Creation Start_---------
 
   Customer *cus = new Customer(); //Create dynamic object using Customer class 
 
