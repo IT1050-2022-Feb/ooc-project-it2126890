@@ -8,14 +8,14 @@ using namespace std;
 
 class Manager: public User
 {
-//Protected attributes
+//Protected attributes.
 protected:
 	char Manager_ID[10];
 	char Manager_Name[20];
 	char M_Password[20];
   Feedback * f2 ;
 
-//Public methods
+//Public methods.
 public:
 	Manager();//Default constructor
 	Manager(const char pM_ID[], const char pM_Name[], 
@@ -30,5 +30,5 @@ const char pM_Pw[],Feedback * pf2 );//Overloaded constructor
 		cout << "this is Manager class. derived class from User" << endl;
 	}
 	void displayManagerDetails();
-	~Manager();//Destructor
+	~Manager();//Destructor.
 };
