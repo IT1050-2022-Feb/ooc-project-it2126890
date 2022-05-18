@@ -22,7 +22,7 @@ User::User(const char pU_ID[], const char pU_Name[], const char pU_Pw[], const c
 	strcpy(User_Type, pU_Type);
 }
 
-//Setters
+//Setters.
 void User::setUser_ID(const char pU_ID[])
 {
 	strcpy(User_ID, pU_ID);
@@ -44,7 +44,7 @@ void User::setUser_Type(const char pU_Type[])
 }
 
 
-//Getters
+//Getters.
 char User::getUser_ID()
 {
 	return User_ID[10];
@@ -69,7 +69,7 @@ void User::displayUserDetails()
 {
 }
 
-User::~User()//Implement destructor
+User::~User()//Implement destructor.
 {
 	cout << "Destructor runs" << endl;
 }
