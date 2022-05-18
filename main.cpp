@@ -32,6 +32,9 @@ int main() {
   User *U1 = new User();
   Customer * pC2 = new Customer();
   U1 -> addCustomer(pC2) ;
+
+  Manager M1;
+  Administrator A1 ;
   
   //--------------------
   
@@ -47,7 +50,7 @@ int main() {
 
   //IT21262890-----Objects Creation End-----------
 
-  //---------------------------------
+  //----------------------------------
 
   Order *O1 = new Order() ;
   Payment *P1 = new Payment() ;
