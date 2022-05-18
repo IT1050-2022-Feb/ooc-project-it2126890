@@ -1,34 +1,39 @@
 //  IT21352294_Jayawardhana J.R.K.B
 
 #pragma once
-#include "User.h"
-#include"Feedback.h"
-#include<iostream>
+# include <iostream>
+#include "Customer.h" // Add header files
 using namespace std;
 
-class Manager: public User
+class User
 {
 //Protected attributes
 protected:
-	char Manager_ID[10];
-	char Manager_Name[20];
-	char M_Password[20];
-  Feedback * f2 ;
+	char User_ID[10];
+	char User_Name[20];
+	char U_Password[20];
+	char User_Type[20];
+  Customer * C2;
 
 //Public methods
 public:
-	Manager();//Default constructor
-	Manager(const char pM_ID[], const char pM_Name[], 
-const char pM_Pw[],Feedback * pf2 );//Overloaded constructor
-	void setManager_ID(const char pM_ID[]);
-	void setManager_Name(const char pM_Name[]);
-	void setM_Password(const char pM_Pw[]);
-	char getManager_ID();
-	char getManager_Name();
-	char getM_Password();
+	User();
+	User(const char pU_ID[], const char pU_Name[], const char pU_Pw[], const char pU_Type[]);//Overloaded constructor
+	void setUser_ID(const char pU_ID[]);
+	void setUser_Name(const char pU_Name[]);
+	void setU_Password(const char pU_Pw[]);
+	void setUser_Type(const char pU_Type[]);
+	char getUser_ID();
+	char getUser_Name();
+	char getU_Password();
+	char getUser_Type();
+  void addCustomer(Customer *pC2)
+  {
+    C2 = pC2;
+  } 
 	void Display() {
-		cout << "this is Manager class. derived class from User" << endl;
+		cout << "this is User class" << endl;
 	}
-	void displayManagerDetails();
-	~Manager();//Destructor
+	void displayUserDetails();
+	~User();//Destructor
 };

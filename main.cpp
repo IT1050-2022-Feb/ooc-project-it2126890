@@ -6,7 +6,8 @@
 #include"UnregisteredCustomer.h"
 #include"RegisteredCustomer.h"
 #include"User.h"
-#include"Order"
+#include"Order.h"
+#include"Payment.h"
 
 int main() {
 
@@ -46,7 +47,12 @@ int main() {
 
   //IT21262890-----Objects Creation End-----------
 
+  //---------------------------------
+
+  Order *O1 = new Order() ;
+  Payment *P1 = new Payment() ;
   
+  //---------------------------------
   
   return 0 ;
 }
