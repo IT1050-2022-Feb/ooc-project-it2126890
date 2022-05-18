@@ -6,7 +6,7 @@
 #include <cstring>
 #include <iostream>
 
-using namespace std; // Use namespaces
+using namespace std; // Use the namespaces
 
 Customer::Customer() // Implement of default constructor
 {
