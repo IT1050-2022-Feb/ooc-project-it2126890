@@ -5,7 +5,7 @@
 
 using namespace std;//Use namespaces
 
-Game::Game()//Implement default constructor
+Game::Game()//Implement the default constructor
 {
   strcpy(Game_ID , "")  ;
   strcpy(Game_Name , "") ;

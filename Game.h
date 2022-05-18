@@ -1,4 +1,4 @@
-//IT21262890_UYANGODA.U.M.V.B
+//IT21262890_UYANGODA.U.M.V.B..
 #include<iostream>
 #include "product.h"// Add header files
 

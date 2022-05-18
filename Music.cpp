@@ -4,7 +4,7 @@
 #include<cstring>>
 using namespace std;//Use namespaces
 
-Music::Music()//Implement default constructor
+Music::Music()//Implement the default constructor
 {
   strcpy(Music_ID , "")  ;
   strcpy(Music_Name , "") ;

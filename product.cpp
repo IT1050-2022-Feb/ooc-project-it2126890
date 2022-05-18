@@ -4,7 +4,7 @@
 #include<cstring>
 using namespace std;//Use namespaces
 
-product::product()//Implement default constructor
+product::product()//Implement the default constructor
 {
   strcpy(P_ID , "")  ;
   strcpy(P_Name , "") ;

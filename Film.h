@@ -1,6 +1,6 @@
 //IT21262890_UYANGODA.U.M.V.B
 #include<iostream>
-#include "product.h"// Add header files
+#include "product.h"// Add the header files
 
 //Create film class
 class Film :public product{
