@@ -6,7 +6,7 @@
 using namespace std ;//Use namespaces
 
 
-Film::Film()//Implement default constructor
+Film::Film()//Implement the default constructor
 {
   strcpy(Film_ID , "")  ;
   strcpy(Film_Name , "") ;
