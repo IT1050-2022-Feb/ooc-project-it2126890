@@ -4,8 +4,10 @@
 #include <iostream>
 using namespace std;
 
+//Create Feedback class
 class Feedback
 {
+//Private attributes
 private:
 	char C_ID[10];
 	char C_Name[20];

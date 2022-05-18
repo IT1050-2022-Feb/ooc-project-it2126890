@@ -6,7 +6,7 @@
 
 using namespace std;
 
-Feedback::Feedback()
+Feedback::Feedback()// Implement of default constructor
 {
 	strcpy(C_ID, "");
 	strcpy(C_Name, "");
