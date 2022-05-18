@@ -1,10 +1,4 @@
 # ooc-project-it2126890
-ooc-project-it2126890 created by GitHub Classroom
-@@ -1,4 +1,4 @@
-
-
-#OOC-Project-KDY_02
-
 
 OOC KDY_02_Online Music, Films & Games Store
 
