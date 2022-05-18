@@ -4,7 +4,7 @@
 #include<cstring>
 #include<iostream>
 
-using namespace std;
+using namespace std;// Use the namespaces
 
 Feedback::Feedback()// Implement of default constructor
 {
@@ -71,7 +71,7 @@ void Feedback::DisplayFeedbackDetails()
 {
 }
 
-Feedback::~Feedback()
+Feedback::~Feedback()//Implement destructor
 {
 	cout << "Distructor runs" << endl;
 }

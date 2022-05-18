@@ -14,8 +14,9 @@ private:
 	char Subject[10];
 	char Contend[20];
 
+//public methods
 public:
-	Feedback();
+	Feedback();//Default constructor
 	Feedback(const char pC_ID[], const char pC_Name[], const char pSub[], const char Con[]);
 	void setC_ID(const char pC_ID[]);
 	void setC_Name(const char pC_Name[]);
@@ -29,6 +30,6 @@ public:
 		cout << "this is Feedback class" << endl;
 	}
 	void DisplayFeedbackDetails();
-	~Feedback();
+	~Feedback();//Destructor
 
 };
