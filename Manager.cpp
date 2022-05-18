@@ -1,7 +1,7 @@
 #include "Manager.h"
-#include<iostream>//Add header files
+#include<iostream>//Add header files.
 #include <cstring>//Use namespaces
-using namespace std;//creating default constructor
+using namespace std;//creating default constructor.
 Manager::Manager()
 {
 	strcpy(Manager_ID, "");
