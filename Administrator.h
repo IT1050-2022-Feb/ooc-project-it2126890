@@ -1,4 +1,4 @@
-//  IT21352294_Jayawardhana J.R.K.B
+//  IT21352294_Jayawardhana J.R.K.B.
 
 #pragma once
 #include "User.h"
@@ -8,16 +8,16 @@ using namespace std;
 
 class Administrator:public User
 {
-//Protected attributes
+//Protected attributes.
 protected:
 	char Admin_ID[10];
 	char Admin_Name[20];
 	char A_Password[20];
   product * p1;
 
-//Public methods
+//Public methods.
 public:
-	Administrator();//Default constructor
+	Administrator();//Default constructor.
 	Administrator(const char pA_ID[],const char pA_Name[],
 const char pA_Pw[],product * pP1);//Overloaded constructor
 	void setAdmin_ID(const char pA_ID[]);
