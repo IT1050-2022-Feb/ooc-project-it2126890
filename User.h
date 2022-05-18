@@ -1,13 +1,13 @@
-//  IT21352294_Jayawardhana J.R.K.B
+//  IT21352294_Jayawardhana J.R.K.B.
 
 #pragma once
 # include <iostream>
-#include "Customer.h" // Add header files
+#include "Customer.h" // Add header files.
 using namespace std;
 
 class User
 {
-//Protected attributes
+//Protected attributes.
 protected:
 	char User_ID[10];
 	char User_Name[20];
@@ -15,10 +15,10 @@ protected:
 	char User_Type[20];
   Customer * C2;
 
-//Public methods
+//Public methods.
 public:
 	User();
-	User(const char pU_ID[], const char pU_Name[], const char pU_Pw[], const char pU_Type[]);//Overloaded constructor
+	User(const char pU_ID[], const char pU_Name[], const char pU_Pw[], const char pU_Type[]);//Overloaded. constructor
 	void setUser_ID(const char pU_ID[]);
 	void setUser_Name(const char pU_Name[]);
 	void setU_Password(const char pU_Pw[]);
@@ -35,5 +35,5 @@ public:
 		cout << "this is User class" << endl;
 	}
 	void displayUserDetails();
-	~User();//Destructor
+	~User();//Destructor.
 };
