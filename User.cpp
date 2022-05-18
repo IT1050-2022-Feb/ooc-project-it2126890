@@ -1,10 +1,10 @@
-//  IT21352294_Jayawardhana J.R.K.B
+//  IT21352294_Jayawardhana J.R.K.B.
 
 #include "User.h"
-#include<iostream>//Add header files
+#include<iostream>//Add header files.
 #include<cstring>
-using namespace std;//Use namespaces
-User::User()//creating default constructor
+using namespace std;//Use namespaces.
+User::User()//creating default constructor.
 {
 	strcpy(User_ID, "");
 	strcpy(User_Name, "");
@@ -13,7 +13,7 @@ User::User()//creating default constructor
 
 }
 
-//create overload constructor 
+//create overload constructor .
 User::User(const char pU_ID[], const char pU_Name[], const char pU_Pw[], const char pU_Type[])
 {
 	strcpy(User_ID, pU_ID);
