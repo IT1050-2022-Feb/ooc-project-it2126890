@@ -38,7 +38,7 @@ int main() {
   
   //--------------------
   
-  //IT21262890-----Objects Creation Start---------
+  //IT21262890-----Objects Creation Start----------
   
   product * pro= new product(); //Create dynamic object using product class 
   
