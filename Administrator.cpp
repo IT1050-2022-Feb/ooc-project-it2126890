@@ -2,9 +2,9 @@
 
 #include "Administrator.h"
 #include<cstring>
-#include<iostream>//Add header files
-using namespace std;//Use namespaces
-Administrator::Administrator()//creating default constructor
+#include<iostream>//Add header files.
+using namespace std;//Use namespaces.
+Administrator::Administrator()//creating default constructor.
 {
 	strcpy(Admin_ID, "");
 	strcpy(Admin_Name, "");
@@ -12,7 +12,7 @@ Administrator::Administrator()//creating default constructor
   p1 = 0;
 
 }
-//create overload constructor 
+//create overload constructor. 
 Administrator::Administrator(const char pA_ID[], const char pA_Name[],
 const char pA_Pw[],product * pP1)
 {
