@@ -1,11 +1,17 @@
 #include <iostream>
-#include <iostream>
+#include<cstring>
+
+#include"product.h"
 #include"Film.h"
 #include"Music.h"
 #include"Game.h"
+#include"Customer.h"
 #include"UnregisteredCustomer.h"
 #include"RegisteredCustomer.h"
 #include"User.h"
+#include"Administrator.h"
+#include"Manager.h"
+#include"Feedback.h"
 #include"Order.h"
 #include"Payment.h"
 
@@ -55,7 +61,24 @@ int main() {
   Order *O1 = new Order() ;
   Payment *P1 = new Payment() ;
   
-  //IT21299766---------Objects Creation Start-------
+  //IT21299766---------Objects Creation End-------
+
+  //Delete objects------------------------------
+
+  delete cus ;
+  delete Rcus1 ;
+  delete Unrcus1 ;
+  delete Afeed1 ;
+  delete pC2 ;
+  delete U1 ;
+  delete M1 ;
+  delete A1 ;
+  delete pro ;
+  delete mu1 ;
+  delete fi1 ;
+  delete ga1 ;
+  delete O1 ;
+  delete P1 ;
   
   return 0 ;
 }
